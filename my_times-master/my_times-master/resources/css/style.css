@@ -1,0 +1,131 @@
+/* header and navigation */
+
+
+#myt-logo {
+  color: MediumAquamarine;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.logo{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  border-bottom: solid black 1px;
+  padding: 15px;
+
+}
+
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+nav {
+  display: inline-flex;
+  justify-content: flex-end;
+  border-bottom: solid black 1px;
+  padding-top: 15px;
+}
+
+span a {
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+/* div border - to delete later
+    div { border: solid black 1px; } */
+
+/* Content */
+
+/* flex items */
+
+p {
+  display: flex;
+}
+
+h1, h2, h3 {
+  display: flex;
+}
+
+/* end of flex items */
+
+.main_content {
+  display: flex;
+  justify-content: center;
+  /*NEW*/
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 25px;
+
+}
+/*NEW*/
+
+.column { /*NEW*/
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large {
+  width: 630px;
+
+  /*display: inline-flex;
+  flex-wrap: wrap;*/
+
+}
+
+.column.medium {
+  width: 300px;
+
+}
+
+.column.small {
+  width: 240px;
+
+}
+
+.tuna_phish {
+  background-image: url("../../resources/images/img-story-main.png");
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  outline-offset: 10px;
+}
+
+.earth , .cameras , .cat_control {
+  background-image: url("../../resources/images/img-story-2.png");
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+/*NEW*/
+.small-stories {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+/*NEW*/
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cameras {
+  background-image: url("../../resources/images/img-story-3.png");
+}
+
+.cat_control {
+  background-image: url("../../resources/images/img-story-1.png");
+}
